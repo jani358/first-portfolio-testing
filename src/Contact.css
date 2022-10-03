@@ -1,0 +1,51 @@
+.contact{
+    background-color: #191919;
+}
+h1.hire__text {
+    font-size: 45px;
+}
+p.hire__text{
+    font-size: 18px;
+    line-height: 30px;
+    color: green;
+    font-weight: 100;
+}
+input.contact{
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    border: 2px solid rgba(29, 29, 221, 0.1);
+    border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    height: 50px;
+    line-height: 46px;
+    margin: 20px 0px;
+    outline: none;
+    color: rgb(84, 74, 192);
+    font-size: 15px;
+    letter-spacing: .1px;
+    background: none;
+    border: 2px solid hsla(0,0%,100%,.2);
+}
+.contact__img{
+    border-radius: 1000px;
+    width: 100%;
+    overflow: hidden;
+ 
+}
+textarea#message{
+    height: 120px;
+    background: none;
+    padding: 0 20px;
+    width: 100%;
+    line-height: 46px;
+    color: rgb(76, 62, 181);
+    font-size: 15px;
+    letter-spacing: .1px;
+    border: 2px solid hsla(0,0%,100%,.2);
+}
+button.btn.contact.pointer {
+    margin: 20px 0px;
+    border-radius: 10000px;
+}
